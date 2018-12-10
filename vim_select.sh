@@ -2,7 +2,7 @@
 
 source select_option.sh
 
-function vim_select() {
+function vselect() {
   options=($@)
   length=${#options[@]}
  
