@@ -19,4 +19,7 @@ vgshow() {
   fi
 }
 
-
+vfind() {
+  files=$(find -name "*$@*")
+  vselect $files
+}
